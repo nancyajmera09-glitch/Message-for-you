@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>A Little Something For You ❤️</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ========================= -->
+    <!-- FLOATING HEARTS -->
+    <!-- ========================= -->
+
+    <div class="hearts"></div>
+
+
+    <!-- ========================= -->
+    <!-- SPARKLES -->
+    <!-- ========================= -->
+
+    <div class="sparkles"></div>
+
+
+    <!-- ========================= -->
+    <!-- PAGE 1 -->
+    <!-- ========================= -->
+
+    <div class="page active"
+         id="page1">
+
+        <img src="images/couple-heart.png.png"
+             class="cartoon">
+
+        <h1>
+            Hey You... 🫣
+        </h1>
+
+        <p>
+            I made something little for you ❤️
+        </p>
+
+        <button onclick="nextPage()">
+            Open it 💌
+        </button>
+
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- PAGE 2 -->
+    <!-- ========================= -->
+
+    <div class="page"
+         id="page2">
+
+        <img src="images/missing.png.png"
+             class="cartoon">
+
+        <h1>
+            I miss you 🥺
+        </h1>
+
+        <p>
+            More than I probably should.
+            <br>
+            And honestly... it's getting ridiculous. 😭
+        </p>
+
+        <button onclick="nextPage()">
+            There's more →
+        </button>
+
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- PAGE 3 - FINAL PAGE -->
+    <!-- ========================= -->
+
+    <div class="page"
+         id="page3">
+
+        <!-- Cute Image -->
+
+        <img src="images/special-place.png.png"
+             class="special-image">
+
+
+        <!-- Special Heading -->
+
+        <h1 class="special-title">
+            A Special Message For You 💌
+        </h1>
+
+
+        <!-- Envelope -->
+
+        <div class="envelope-container"
+             onclick="openEnvelope()">
+
+            <div class="envelope">
+
+
+                <!-- Letter -->
+
+                <div class="letter">
+
+                    <p>
+                        No matter where life takes us,
+                        <br>
+                        you’ll always have a little corner
+                        <br>
+                        of my heart reserved just for you.
+                    </p>
+
+                </div>
+
+
+                <!-- Envelope Body -->
+
+                <div class="envelope-body"></div>
+
+
+                <!-- Envelope Flap -->
+
+                <div class="envelope-flap"></div>
+
+
+            </div>
+
+        </div>
+
+
+        <!-- Envelope Hint -->
+
+        <p class="envelope-hint">
+            Tap the envelope 💗
+        </p>
+
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- JAVASCRIPT -->
+    <!-- ========================= -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
